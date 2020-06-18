@@ -8,7 +8,7 @@
 
 ## :rocket: Sobre o desafio
 
-Este repositório contém desafios sobre lógica de programação com JS. 
+Este repositório contém desafios elaborado no Launch Base.
 
 ### Orientações
 <p>
