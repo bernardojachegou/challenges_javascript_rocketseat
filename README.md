@@ -3,12 +3,12 @@
 </h1>
 
 <h3 align="center">
-  Desafios: Primeiros passos com JS
+  Desafios do bootcamp Launch Base da Rocketseat.
 </h3>
 
 ## :rocket: Sobre o desafio
 
-Este repositório contém desafios sobre lógica de programação com JS. 
+Este repositório contém desafios elaborado no Launch Base.
 
 ### Orientações
 <p>
