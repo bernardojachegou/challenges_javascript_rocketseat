@@ -1,0 +1,49 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+/* Reset e configurações globais; */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Configurações do body: Cor do plano de fundo; */
+
+body {
+    background: linear-gradient(to right, #000066 0%, #6600cc 100%);
+}
+
+/* HEADER */
+/* Configurações da barra de menu: Espaçamento, cor do fundo e borda inferior; */
+
+header {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid whitesmoke;
+}
+
+/* Configurações da caixa da barra de menu: Alinhamento dos elementos; */
+
+header .links {
+    text-align: center;
+}
+
+/* Configurações dos elementos da barra de menu: Texto: transformação, decoração, color, peso, tamanho, altura e espaçamento; */
+
+ .links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 30px;
+}
+
+/* Configurações dos elementos da barra de menu QUANDO selecionados: Cor e tempo para a troca de cor; */
+
+.links a:hover {
+    color: rgb(128, 107, 243);
+    transition: 400ms;
+}
