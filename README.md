@@ -13,7 +13,7 @@
   <a href="https://github.com/bernardojachegou/launchbase_challenges_rocketseat/commits/master">
     <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/bernardojachegou/launchbase_challenges_rocketseat/master?color=%23ff9900&style=for-the-badge">
 </a>
-    <a href="https://www.linkedin.com/in/bernardojachegou/">
+    <a target="blank" href="https://www.linkedin.com/in/bernardojachegou/">
     <img alt="Made by Michel Bernardo" src="https://img.shields.io/badge/Mady%20By-Michel%20Bernardo-%23ff9900?style=for-the-badge">
   </a>
 
