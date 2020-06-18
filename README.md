@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Desafios: Primeiros passos com JS
+  Desafios do bootcamp Launch Base da Rocketseat.
 </h3>
 
 ## :rocket: Sobre o desafio
