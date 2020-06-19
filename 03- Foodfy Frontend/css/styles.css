@@ -32,6 +32,10 @@ header {
     margin: 15px;
 }
 
+#link_logo {
+    margin: 0;
+}
+
 #logo {
     margin-right: 80px;
 }
@@ -95,7 +99,7 @@ header {
     max-width: 960px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     gap: 20px;
 }
 
@@ -119,6 +123,9 @@ header {
 }
 
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,4 +137,31 @@ header {
 .footer p {
     font-size: 14px;
     color: #999999;
+}
+
+.foodfy_about {
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.foodfy_about h1 {
+    font-size: 24px;
+    color: #111111;
+    font-weight: 700;
+}
+
+.foodfy_about h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #111111;
+}
+
+.foodfy_about .text {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+.text p {
+    margin: 18px 0;
 }
