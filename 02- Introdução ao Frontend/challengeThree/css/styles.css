@@ -147,14 +147,15 @@ header .links {
     gap: 50px;
 }
 
-/* Configurações do elemento card: Cor de fundo; */
+/* Configurações do elemento card: Cor de fundo e arredondamento das bordas (inferiores); */
 
 .card {
     background-color: white;
+    border-radius: 16px;
 }
 
 .card:hover {
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 .card#starter {
@@ -169,10 +170,12 @@ header .links {
     background-color: #00cc44;
 }
 
-/* Configurações da imagem do elemento card: Largura; */
+/* Configurações da imagem do elemento card: Largura e arredondamento das bordas superiores; */
 
 .card_container img {
     width: 100%;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
 }
 
 /* Configurações do título do elemento card: Alinhamento de texto; */
