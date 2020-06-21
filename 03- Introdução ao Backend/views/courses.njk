@@ -1,0 +1,44 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Cursos & Bootcamps</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+    <div id="wrapper" class="video">
+        <h1>Nossos Cursos</h1>
+    </div>
+
+    <section class="cards">
+
+        {% for item in items %}
+
+            <div class="card" id="{{item.id}}">
+
+                <div class="card_container {{'featured-wrapper' if item.featured}}">
+                    <img src="{{item.image_url}}" alt="Imagem de {{item.title}}">
+                    {% if item.featured %}
+                        <div class="featured">Destaque</div>
+                        {%endif%}
+                    </div>
+
+                    <div class="card_content">
+                        <p>{{item.title}}</p>
+                    </div>
+
+                    <div class="card_info">
+                        <p>{{item.course_modules}}</p>
+                        <p class="card_price">{{item.price}}</p>
+                    </div>
+                </div>
+
+            </div>
+        {% endfor %}
+
+    </section>
+
+    <script src="/scripts.js"></script>
+
+{% endblock %}

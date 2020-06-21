@@ -1,0 +1,406 @@
+:root {
+    --primary-color: rgb(234, 233, 235);
+    --hover-color: rgb(128, 107, 243);
+}
+
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+/* Reset e configurações globais; */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Configurações do body: Cor do plano de fundo; */
+
+body {
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/48/76/universe-background-with-stars-vector-14404876.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(to right, #000066 0%, #6600cc 100%); */
+}
+
+/* HEADER */
+
+/* Configurações da barra de menu: Espaçamento, cor do fundo e borda inferior; */
+
+header {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+/* Configurações da caixa da barra de menu: Alinhamento dos elementos; */
+
+header .links {
+    text-align: center;
+}
+
+/* Configurações dos elementos da barra de menu: Texto: transformação, decoração, color, peso, tamanho, altura e espaçamento; */
+
+.links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 30px;
+}
+
+/* Configurações dos elementos da barra de menu QUANDO selecionados: Cor e tempo para a troca de cor; */
+
+.links a:hover {
+    color: var(--hover-color);
+    transition: 400ms;
+}
+
+/* SESSÃO SOBRE */
+
+/* Configurações do elemento principal: Alinhamento dos elementos; */
+
+#wrapper {
+    text-align: center;
+}
+
+/* Configurações da imagem: Erredondamento da imagem, espaçamento externo e tamanho da imagem; */
+
+#wrapper img {
+    border-radius: 50%;
+    border: 8px solid var(--hover-color);
+    margin: 36px 0px;
+    height: 350px;
+}
+
+/* Configurações do título: Cor, tamanho da fonte, altura da fonte e espaçamento superior; */
+
+#wrapper h1 {
+    color: var(--primary-color);
+    font-size: 48px;
+    line-height: 50px;
+    margin-top: 16px;
+}
+
+/* Configurações do parágrafo: Cor, tamanho da fonte, altura da fonte, espaçamento, peso da fonte e largura máxima; */
+
+#wrapper p {
+    color: var(--primary-color);
+    font-size: 20px;
+    line-height: 26px;
+    margin: 16px auto;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+/* Configurações dos elementos da lista: Cor, tamanho da fonte, altura da fonte, largura máxima, espaçamento e estilo de lista; */
+
+#wrapper li {
+    color: var(--primary-color);
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 400px;
+    margin: 32px auto;
+    list-style: none;
+}
+
+/* Configurações dos elementos da lista quando selecionados: Tamanho da fonte; */
+
+#wrapper li:hover {
+    font-size: 42px;
+}
+
+/* FOOTER */
+
+/* Configurações do elemento footer: Posição, localização, largura, espaçamento interno e cor do fundo; */
+
+#links-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Configurações dos elementos dentro do footer: Espaçamento, cor e bordas; */
+
+#links-footer a {
+    margin: 0 16px;
+    color: var(--primary-color);
+}
+
+/* Configurações dos elementos dentro do footer quando selecionados: Cor e bordas; */
+
+#links-footer a:hover {
+    color: var(--hover-color);
+    border: 0;
+}
+
+/* CARDS */
+
+/* Configurações da sessão cards: largura máxima, espaçamento externo, display e espaçamento das coluna; */
+
+.cards {
+    max-width: 1100px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+/* Configurações do elemento card: Cor de fundo e arredondamento das bordas (inferiores); */
+
+.card {
+    background-color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 2px solid white;
+}
+
+.card#starter {
+    background-color: #7159c1;
+}
+
+.card#launchbase {
+    background-color: #ff9900;
+}
+
+.card#gostack {
+    background-color: #00cc44;
+}
+
+/* Configurações da imagem do elemento card: Largura e arredondamento das bordas superiores; */
+
+.card_container img {
+    width: 100%;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+}
+
+/* Configurações do título do elemento card: Alinhamento de texto; */
+
+.card_content {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+/* Configurações do título da descrição do elemento card: Espaçamento interno; */
+
+.card_content, .card_info {
+    padding: 16px;
+}
+
+/* Configurações da descrição do elemento card: display em colunas */
+
+.card_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+/* Configurações do elemento <p> dentro das informações do card: Cor de fundo, brilho, espaçamento interno, arredondamento de bordas e alinhamento do texto; */
+
+.card_price {
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Configurações do elemento card com id #starter: Cor de fundo e brilho; */
+
+#starter .card_price {
+    background-color: #7159c1;
+    filter: brightness(80%);
+}
+
+/* Configurações do elemento card com id #launchbase: Cor de fundo e brilho; */
+
+#launchbase .card_price {
+    background-color: #ff9900;
+    filter: brightness(80%);
+}
+
+/* Configurações do elemento card com id #gostack: Cor de fundo e brilho; */
+
+#gostack .card_price {
+    background-color: #00cc44;
+    filter: brightness(80%);
+}
+
+/* MODAL */
+
+/* Configuração do elemento pai do modal: Cor de fundo, largura, altura, posição, distancia do topo, opacidade e visibilidade; */
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Configuração do modal: Cor de fundo, largura, altura, espaçamento externo e posição; */
+
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+/* Configuração do botão para fechar o modal: Cor, posição, distancia a direita, distancia do topo e tipo de cursor; */
+
+.modal .close-modal {
+    color: black;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+}
+
+/* Configuração do botão para maximinizar o modal: Cor, posição, distancia a direita, distancia do topo e tipo de cursor; */
+
+.modal .maximize-modal {
+    color: black;
+    position: absolute;
+    right: 48px;
+    top: 12px;
+    cursor: pointer;
+}
+
+/* MODAL.ACTIVE */
+
+/* Configuração elemento pai do modal com a classe active: Opacidade e visibilidade; */
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Configuração elemento modal com a classe maximize: Cor de fundo, largura, altura, espaçamento externo e posição; */
+
+.modal.maximize {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+/* Configuração elemento dentro do modal: Largura, altura, posição e distância do topo; */
+
+iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+}
+
+/* PÁGINA INEXISTENTE (404) */
+
+/* Configuração de página not-found: Espaçamento superior externo e alinhamento do conteúdo; */
+
+#err {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+/* Configuração do texto da not-found: Cor e tamanho da fonte; */
+
+#err h1 {
+    color: white;
+    font-size: 48px;
+}
+
+/* FEATURED */
+
+/* Configuração do elemento pai da tag featured: tipo de posicionamento; */
+
+.featured-wrapper.card_container {
+    position: relative;
+}
+
+/* Configuração da tag criada com o elemento featured: Cor de fundo, cor do texto, espaçamento interno, tipo de posicionamento, bordar e distância do topo; */
+
+.featured {
+    background-color: white;
+    color: black;
+    padding: 2px 4px;
+    position: absolute;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    top: 0;
+}
+
+/* PÁGINA DO CURSO
+
+/* Configuração do elemento pai: Espaçamento externo e largura máxima; */
+
+.course {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+/* Configuração do elemento card: Largura e cursor; */
+
+.course .card {
+    width: 400px;
+    cursor:default;
+}
+
+/* Configuração da caixa de informações sobre o curso: Largura e espaçamento interno; */
+
+.course #course_info {
+    width: 400px;
+    padding: 40px;
+}
+
+/* Configuração do título na caixa de informações: Cor, tamanho da fonte e espaçamento externo; */
+
+.course #course_info h1 {
+    color: white;
+    font-size: 64px;
+    margin: 24px 0;
+}
+
+/* Configuração do texto na caixa de informações: Cor, tamanho da fonte, altura do texto e espaçamento externo; */
+
+.course #course_info p {
+    color: white;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 24px 0;
+}
+
+/* Configuração do texto link: Tamanho da fonte e tipo de cursor; */
+
+.course #course_info #more_info {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Configuração do texto link ao ser selecionado: Tamanho da fonte e tipo de cursor; */
+
+.course #course_info #more_info:hover {
+    color: var(--hover-color);
+    transition: 400ms;
+}
+
+/* Configuração do card ao ser selecionado: bordas; */
+
+.course .card:hover {
+    border: 0;
+}
+
