@@ -10,5 +10,5 @@ for (let card of cards) {
 
 info.addEventListener("click", function () {
     const courseId = document.querySelector(".card").getAttribute("id");
-    window.open(`http://www.rocketseat.com.br/${courseId}`)
+    window.open(`https://www.rocketseat.com.br/${courseId}`)
 })
