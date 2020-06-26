@@ -26,12 +26,9 @@
 <h2> Sumário </h2>
 
 <ul>
-    <li>
-        <a href="#javascript">Introdução JavaScript</a>
-    </li>
-    <li>
-        <a href="#frontend">Introdução ao Frontend</a>
-    </li>
+    <li>Introdução ao Javascript</li>
+    <li>Introdução ao Frontend</li>
+    <li>Introdução ao Backend</li>
 </ul>
 
 ## :computer: Orientações:
