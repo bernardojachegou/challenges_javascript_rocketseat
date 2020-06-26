@@ -15,11 +15,11 @@
 </p>
 
 
-<h3 id="frontend" align="center"> Desafios Introdução ao Frontend</h3>
+<h3 id="frontend" align="center"> Desafios: Introdução ao Frontend</h3>
 
-<h3 align="center">Questões</h3>
+<h2 align="center">Questões</h2>
 
-### 1- Criação de header
+## :rocket: 1- Criação de header
 
 Criar um arquivo html que contenha um [favicon](favicon.ico) e um header com 3 links: Comunidade, Email e Telefone.
 
@@ -49,7 +49,7 @@ Você tem liberdade para escolher a estilização que preferir para esse desafio
 - O header precisa ter um espaçamento interno de 30px em todas as direções
 - Os links devem ter um espaçamento de 30px entre si
 
-### 2- Criação da página Sobre
+## :rocket: 2- Criação da página Sobre
 
 A partir do arquivo do desafio 2-1, adicionar um novo link no header chamado Sobre. Essa página deverá mostrar informações referentes a Rocketseat.
 
@@ -70,7 +70,7 @@ Você tem liberdade para escolher a estilização que preferir para esse desafio
 - O nome da empresa e a imagem devem ser destacar do restante
 - Os links das redes sociais devem ter alguma alteração visual quando o cursor do mouse passar por cima
 
-### 3- Criação da página Conteúdos
+## :rocket: 3- Criação da página Conteúdos
 
 A partir do arquivo do desafio 2.2, adicionar no header um link chamado Conteúdos. Essa página deve conter um grid onde devem ser mostrados os 3 principais cursos da Rocketseat: Starter, Launchbase e GoStack. Ao clicar em um dos cursos, deve ser aberta uma modal onde um iframe irá carregar as informações do curso selecionado.
 
@@ -79,14 +79,14 @@ A partir do arquivo do desafio 2.2, adicionar no header um link chamado Conteúd
 - Título da página
 - Grid com 3 colunas e 1 linha onde serão apresentados os cards dos cursos
 
-## Informações do card
+### Informações do card
 
 - Logo do curso ([Starter](https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg), [Launchbase](https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg) e [GoStack](https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg))
 - Título do curso
 - Quantidade de módulos dos cursos
 - Informação se o curso é gratuito ou pago
 
-## Modal
+### Modal
 
 O modal deve conter um iframe que busca a página do curso (dica: basta adicionar `starter`, `launchbase` ou `gostack` ao final de `https://rocketseat.com.br/`). Além do botão de fechar o modal, é preciso implementar a funcionalidade de maximizar o modal (dica: utilize a mesma lógica implementada para fechar o `modalOverlay`, mas trabalhe com a classe `modal` e utilize o método `contains` do `classList` para verificar se o elemento está ou não com a classe `maximize`).
 
