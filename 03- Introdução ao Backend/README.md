@@ -17,11 +17,9 @@
 
 <h3 id="frontend" align="center"> Desafios: Introdução ao Backend</h3>
 
-<h3 align="center">Questões</h3>
+<h2 align="center">Questões</h2>
 
-<h3>Desafio 1: Primeiro servidor</h3>
-
-## :rocket: Sobre o desafio
+## :rocket: Desafio 1: Primeiro servidor
 
 Nesse desafio você deve criar um servidor que tenha duas rotas que devem retornar o conteúdo dos html gerados no desafio 2-3 (páginas de `Cursos` e `Sobre`). Além disso, deve ser implementando um arquivo padrão (layout.njk) que reaproveite o código em comum entre esses dois e também um arquivo que sirva uma página de erro 404.
 
@@ -49,9 +47,7 @@ server.use(function(req, res) {
 
 Você tem liberdade para escolher a estilização que preferir para esse desafio.
 
-<h3>Desafio 2: Arquivos nunjucks e dados dinâmicos</h3>
-
-## :rocket: Sobre o desafio
+## :rocket: Desafio 2: Arquivos nunjucks e dados dinâmicos
 
 Nesse desafio você deve atualizar os arquivos com informações de cursos e descrição de forma dinâmica.
 
@@ -59,9 +55,7 @@ Nesse desafio você deve atualizar os arquivos com informações de cursos e des
 
 Você tem liberdade para escolher a estilização que preferir para esse desafio.
 
-<h3>Desafio 3: Página de descrição do curso</h3>
-
-## :rocket: Sobre o desafio
+## :rocket: Desafio 3: Página de descrição do curso
 
 Nesse desafio você deve criar uma página de descrição do curso que deve ser chamada no lugar da modal quando o usuário clicar no card do curso.
 
