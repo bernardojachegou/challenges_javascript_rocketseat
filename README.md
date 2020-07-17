@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-    Desafios do bootcamp LaunchBase da Rocketseat.
+    Desafios do bootcamp LaunchBase da Rocketseat - Fase 01 e 02
 </h2>
 
 <p align="center">
